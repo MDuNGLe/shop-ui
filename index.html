@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru-luna1918">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+  <title>Магазин</title>
+  <script src="index.js"
+          type="module"></script>
+          <link rel="stylesheet" href="./stylesheet/main.css">
+</head>
+<body>
+  <article>
+    <h1>Товары</h1>
+    <section>
+      <h2>Добавление записи</h2>
+      <form action="https://fakestoreapi.com/products/"
+      id="product-add-form"
+      method="post">
+    <label>
+        Наименование:
+        <input name="title"
+        placeholder="Введите название товара"
+               required
+               value="">
+
+    </label>
+    <label>
+        Цена:
+        <input min="0.01"
+               name="price"
+               placeholder="Введите цену"
+               required
+               step="0.01"
+               type="number"
+               value="">
+    </label>
+    <label>
+        Изображение (URL):
+        <input name="image"
+               type="url"
+               placeholder="Ссылка на изображение"
+               required>
+    </label>
+    <button type="submit">Добавить</button>
+</form>
+
+    </section>
+    <section>
+      <h2>Витрина</h2>
+      <div id="catalog"></div>
+    </section>
+  </article>
+</body>
+
+</html>

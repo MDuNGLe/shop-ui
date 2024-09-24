@@ -1,0 +1,27 @@
+button {
+    padding: 10px 20px;
+    color: #000;
+    background-color: aqua;
+    border-radius: 10px;
+    font-size: 16px;
+
+
+}
+
+label {
+    font-size: 20px;
+}
+
+input {
+    background-color: azure;
+    color: #333;
+    padding: 10px;
+    border: 2px solid #333;
+    border-color: #333;
+    font-size: 16px;
+}
+
+p {
+    font-size: 16px;
+
+}
